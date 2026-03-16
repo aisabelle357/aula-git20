@@ -1,0 +1,49 @@
+ /*reset*/
+      * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    }
+      /*Body*/
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+      /*Formulário e componentes*/
+       form{
+         background-color:pink;
+         width:300px ;
+         margin: 15px;
+         padding:15px ;
+         border:3px solid black;
+         border-radius:10px ;
+         text-align: center;
+       }  
+        label {
+         display:block;
+         margin-bottom:3px ;
+         color:black;
+         font-weight:bold
+       }
+        input {
+          width:90% ;
+        padding:10px ;
+        margin-bottom:15px;
+        border: 1px solid black;
+        border-radius: 3px;
+
+       }
+       button{
+        width: 100%;
+        padding: 10px;
+        background-color: #2ecc71;
+        color: whitesmoke;
+        font-weight: bold;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+       }
